@@ -1,4 +1,6 @@
-const Marquee = ({ items }: { items: string[] }) => {
+import { MarqueeType } from "@/app/(types)/category";
+
+const Marquee = ({ items }: MarqueeType) => {
     return (
         <div className="relative overflow-hidden bg-white h-[6vh] lg:h-[10vh] w-screen text-black flex items-center ml-[-2.5vw]">
             <div className="flex whitespace-nowrap animate-marquee gap-10 text-[4vh] lg:text-[7vh]">
