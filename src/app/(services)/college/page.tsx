@@ -1,4 +1,4 @@
-import Marquee from "@/app/(components)/marqueee"
+import Marquee from "@/app/(components)/(service)/marqueee"
 import { Button } from "@/components/ui/button"
 
 const College = () => {
