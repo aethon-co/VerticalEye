@@ -64,7 +64,6 @@ const School = () => {
                     </div>
                 </div>
                 <div className="mt-[5vh] flex justify-around">
-                    {/* <ServiceCard title="WINNING EDGE" description="Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis." image={PI.src} /> */}
                     <ServiceCard title="COUNSELING" description="Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis." image={PI.src} />
                     <ServiceCard title="SPELL-BINDERS" description="Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis." image={PI.src} />
                     <ServiceCard title="CONSULTANCY" description="Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis." image={PI.src} />
