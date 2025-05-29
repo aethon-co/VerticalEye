@@ -21,7 +21,7 @@ const School = () => {
                     <img
                         src={PI.src}
                         alt="school"
-                        className="object-cover rounded-2xl opacity-[0.4] h-[90%] w-[90%]"
+                        className="object-cover rounded-2xl opacity-[0.4] h-[90%] w-[80%]"
                     />
                 </div>
             </section>
