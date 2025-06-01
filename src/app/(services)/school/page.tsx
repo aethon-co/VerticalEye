@@ -4,10 +4,11 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import PI from "../../../Assets/Placeholder Image.webp"
 import MethodologyCard from "@/app/(components)/(service)/MethodologyCard"
+import TestimonialCard from "@/app/(components)/(service)/testimonialCard"
 
 const School = () => {
     return (
-        <div>
+        <div className="text-[1.2rem]">
             <section className="flex h-[84vh] lg:h-[80vh]">
                 <div className="lg:w-[50vw] h-full flex flex-col items-center justify-center">
                     <h1 className="text-[5rem] lg:text-[8rem] font-bold">SCHOOL</h1>
@@ -57,7 +58,7 @@ const School = () => {
                     <img
                         src={PI.src}
                         alt="school"
-                        className="object-cover rounded-2xl opacity-[0.4] h-[500px] w-[60%]"
+                        className="object-cover rounded-2xl opacity-[0.4] h-[400px] w-[60%]"
                     />
                     <div className="relative z-10 mt-[2rem] flex flex-col items-center">
                         <p className="text-[1.2rem] w-[90%] font-light">Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis. Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis.Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis. Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis.</p>
@@ -71,7 +72,7 @@ const School = () => {
             </section>
 
             <section className="mt-[5vh] h-fit w-full text-center">
-                <h1 className="text-[2rem] font-bold mb-[2rem]">METHODOLOGY</h1>
+                <h1 className="text-[2.5rem] font-bold mb-[2rem]">METHODOLOGY</h1>
                 <div className="flex justify-around">
                     <MethodologyCard />
                     <MethodologyCard />
@@ -79,18 +80,17 @@ const School = () => {
                 </div>
             </section>
 
-            <section>
-                <h1>TESTIMONIALS</h1>
+            <section className="mt-[5vh] h-fit w-full text-center">
+                <h1 className="text-[2.5rem] font-bold mb-[2rem]">TESTIMONIALS</h1>
+                <TestimonialCard />
             </section>
 
-            <section>
-                <h1>CLIENTELE</h1>
+            {/* <section className="mt-[5vh] h-fit w-full text-center">
+                <h1 className="text-[2rem] font-bold mb-[2rem]">CLIENTELE</h1>
+            </section> */}
 
-            </section>
-
-            <section>
-                <h1>GALLERY</h1>
-
+            <section className="mt-[5vh] h-fit w-full text-center">
+                <h1 className="text-[2.5rem] font-bold mb-[2rem]">GALLERY</h1>
             </section>
 
 
