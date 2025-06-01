@@ -3,6 +3,7 @@ import ServiceCard from "@/app/(components)/(service)/serviceCard"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import PI from "../../../Assets/Placeholder Image.webp"
+import MethodologyCard from "@/app/(components)/(service)/MethodologyCard"
 
 const School = () => {
     return (
@@ -51,23 +52,45 @@ const School = () => {
             </div> */}
 
             <section className="mt-[5vh] h-fit w-full text-center">
-                <h1 className="text-[3rem] font-bold mb-[2rem]">SERVICES</h1>
+                <h1 className="text-[3rem] font-bold mb-[2rem]">WINNING EDGE</h1>
                 <div className="flex flex-col items-center justify-between w-full">
                     <img
                         src={PI.src}
                         alt="school"
-                        className="object-cover rounded-2xl opacity-[0.4] h-[500px] w-[90%]"
+                        className="object-cover rounded-2xl opacity-[0.4] h-[500px] w-[60%]"
                     />
                     <div className="relative z-10 mt-[2rem] flex flex-col items-center">
-                        <h1 className="text-[2rem] font-bold">WINNING EDGE</h1>
-                        <p className="text-[1.2rem] w-[90%] font-light">Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis. Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis.</p>
+                        <p className="text-[1.2rem] w-[90%] font-light">Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis. Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis.Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis. Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis.</p>
                     </div>
                 </div>
-                <div className="mt-[5vh] flex justify-around">
+                {/* <div className="mt-[5vh] flex justify-around">
                     <ServiceCard title="COUNSELING" description="Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis." image={PI.src} />
                     <ServiceCard title="SPELL-BINDERS" description="Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis." image={PI.src} />
                     <ServiceCard title="CONSULTANCY" description="Lorem ipsum dolor sit amet. Qui architecto maiores ea eligendi galisum sed natus aliquam est consequatur dolor ut internos Quis." image={PI.src} />
+                </div> */}
+            </section>
+
+            <section className="mt-[5vh] h-fit w-full text-center">
+                <h1 className="text-[2rem] font-bold mb-[2rem]">METHODOLOGY</h1>
+                <div className="flex justify-around">
+                    <MethodologyCard />
+                    <MethodologyCard />
+                    <MethodologyCard />
                 </div>
+            </section>
+
+            <section>
+                <h1>TESTIMONIALS</h1>
+            </section>
+
+            <section>
+                <h1>CLIENTELE</h1>
+
+            </section>
+
+            <section>
+                <h1>GALLERY</h1>
+
             </section>
 
 
